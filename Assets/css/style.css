@@ -14,6 +14,9 @@ html body {
     width: 1000px;
     margin: 0 auto;
 }
+.header{
+    background-image: url('../images/background\ sunset.jpg');
+}
 .left img {
     width: 100px;
 }
@@ -39,6 +42,7 @@ header {
     background-attachment: inherit;
     background-size: cover;
     padding-left: 0px;
+    background-image: url('../images/background\ sunset.jpg');
 }
 nav.header-navigation {
     width: 100%;
