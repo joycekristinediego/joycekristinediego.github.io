@@ -15,7 +15,7 @@ html body {
     margin: 0 auto;
 }
 header {
-    background: peachpuff;
+    background-image: url('../images/background\ sunset.jpg');
 }
 .left img {
     width: 100px;
@@ -44,6 +44,8 @@ header {
     padding-left: 0px;
 }
 nav.header-navigation {
+    width: 100%;
+    text-align: left;
     margin-top: 50px;
 }
 nav.header-navigation a {
@@ -88,9 +90,7 @@ h2 {
 
 
 /* Banner Style*/
-.banner-section {
-    background-image: url('../images/background\ sunset.jpg');
-    color: #990505;
+.header-section {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
