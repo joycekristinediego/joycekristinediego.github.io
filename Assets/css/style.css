@@ -42,11 +42,11 @@ header {
     background-attachment: inherit;
     background-size: cover;
     padding-left: 0px;
-    background-image: url('../images/background\ sunset.jpg');
+    background-color: peachpuff;
 }
 nav.header-navigation {
     width: 100%;
-    text-align: left;
+    text-align: right;
     margin-top: 50px;
 }
 nav.header-navigation a {
@@ -92,7 +92,9 @@ h2 {
 
 
 /* Banner Style*/
-.header-section {
+.banner-section {
+    background-image: url('../images/background\ sunset.jpg');
+    color: #990505;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -107,33 +109,9 @@ h1 {
 
 
 /* About Style*/
-section.about-section {
-    padding: 30px;
+.about.header {
     background: peachpuff;
 }
-.about-section h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 27px;
-    font-family: serif;
-}
-.about-left {
-    width: 20%;
-    display: inline-block;
-    padding-left: 50px;
-}
-.about-right {
-    float: right;
-    width: 60%;
-    padding-right: 100px;
-    text-align: justify;
-}
-.about-left img {
-    width: 105%;
-    border-radius: 100%;
-}
-
 
 
 /* Album Styles*/
@@ -409,10 +387,7 @@ section.skills-section .row-2 {
 
 
 /* Contact Styles */
-header#contacts {
-    background-image: url('../images/pink.jpg');
 
-}
 section#contact {
     background-size: cover;
     background-attachment: inherit;
@@ -519,7 +494,7 @@ footer h3 {
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+      font-size: 3.5rem;;
     }
   }
 
@@ -559,3 +534,16 @@ footer h3 {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  element.style {
+}
+@media (min-width: 1200px) .h1, h1 {
+    font-size: 3.5rem;
+}
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+.@media (min-width: 1200px)
+ h1, h1 {
+    color: crimson;
+}
