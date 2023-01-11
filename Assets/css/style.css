@@ -125,7 +125,7 @@ header#contacts-header{
     background-attachment: inherit;
     background-size: cover;
     padding-left: 0px;
-    background-image: url('../images/contacts.me.jpg');
+    background-image: url('../images/contacts-final.png');
 }
 /*album banner*/
 .banner-section-album {
@@ -146,7 +146,7 @@ header#album-header{
     background-attachment: inherit;
     background-size: cover;
     padding-left: 0px;
-    background-image: url('../images/Album2.jpg');
+    background-image: url('../images/album.png');
 }
 /*favorites banner*/
 .banner-section-album {
@@ -167,7 +167,7 @@ header#favorites-header{
     background-attachment: inherit;
     background-size: cover;
     padding-left: 0px;
-    background-image: url('../images/background\ about.jpg');
+    background-image: url('../images/favorite.png');
 }
 /*Home banner*/
 .banner-section-album {
